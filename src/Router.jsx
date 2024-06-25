@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, PrivateRoute, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import HomePage from "./pages/Home";
 import QnA from "./pages/QnA";
@@ -18,9 +18,9 @@ import UpdateQna from "./pages/UpdateQna";
 function Router() {
     const isLoggedIn = useSelector((state) => state.loginStatus.status);
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/npe-react">
             <Routes>
-                <Route path="/npe-react" element={<Main />} />
+                <Route path="/" element={<Main />} />
                 {/* <Route path="/home" element={isLoggedIn ? <HomePage /> : <Navigate to="/" />} /> */}
                 <Route path="/qnas" element={<QnA />} />
                 <Route path="/qnas/detail/:qnaId" element={<QnaDetail />} />
