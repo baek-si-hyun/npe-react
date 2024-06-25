@@ -7,7 +7,6 @@ import DeleteModal from "../Modal/DeleteModal";
 import AiAnswer from "./AiAnswer";
 import PeopleAnswer from "./PeopleAnswer";
 import { updateAnswerApi } from "../../../service/answerApi";
-
 import { timeForToday } from "../../profiles/QnaActivity/QnaActivityAnswer";
 import { checkTheComment, insertProfanityApi } from "../../../service/answerReplyApi";
 

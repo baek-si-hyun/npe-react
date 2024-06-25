@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import ToolBox from "./QnaActivityAnswer/ToolBox";
 import AnswerContent from "./QnaActivityAnswer/AnswerContent";
-import LikeUserModal from "../Modal/LikeUserModal";
 
 const QnaActivityAnswerItem = styled.div`
   background-color: #fff;
@@ -129,9 +128,6 @@ function QnaActivityAnswer({ answer, member }) {
         </QnaActivityAnswerContainer>
         <ToolBox answer={answer} />
       </QnaActivityAnswerItem>
-      {/* {likeUsersModal && (
-        <LikeUserModal />
-      )} */}
     </>
   );
 }

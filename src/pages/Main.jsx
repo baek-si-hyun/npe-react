@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import Footer from "../components/Footer/Footer";
 import MainHeader from "../components/Header/MainHeader";
 import Introduction from "../container/Main/Introduction";
 import Landing from "../container/Main/Landing";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer/Footer";
 
 const Container = styled.div`
   flex-direction: column;
