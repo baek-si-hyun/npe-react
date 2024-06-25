@@ -20,7 +20,7 @@ function Router() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Main />} />
+                <Route path="/npe-react" element={<Main />} />
                 {/* <Route path="/home" element={isLoggedIn ? <HomePage /> : <Navigate to="/" />} /> */}
                 <Route path="/qnas" element={<QnA />} />
                 <Route path="/qnas/detail/:qnaId" element={<QnaDetail />} />

@@ -35,6 +35,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://baek-si-hyun.github.io/npe-react",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -46,6 +47,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  } ,
-   "homepage": "https://baek-si-hyun.github.io/npe-react"
+  }
+
 }
